@@ -26,6 +26,13 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  name = []
+  index = 0 
+  while index < source.legth do 
+    name << source[index][:name]
+    index += 1 
+  end
+  name 
 end
 
 def total_gross(source)
