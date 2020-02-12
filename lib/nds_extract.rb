@@ -54,6 +54,7 @@ def total_gross(source)
     total += directors_earnings[director_name]
     index += 1 
   end
+  total
 end
 
 
